@@ -1,0 +1,35 @@
+name:                chan-benchmark
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            https://github.com/KevinCotrone/chan-benchmark#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Kevin Cotrone
+maintainer:          kevincotrone@gmail.com
+copyright:           2016 Kevin Cotrone
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable chan-benchmark
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , classy-prelude
+                     , hashmap
+                     , binary
+                     , bytestring
+                     , mtl
+                     , text
+                     , uuid
+                     , zlib
+                     , MissingH
+                     , monad-loops
+                     , unordered-containers
+                     , random
+                     , stm-containers
+                     , unagi-chan
+                     , stm
+                     , criterion
